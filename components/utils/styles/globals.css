@@ -1,9 +1,9 @@
 :root {
-  --color-green-one: #cad2c5
-  --color-green-two: #84a98c
-  --color-green-three: #52796f
-  --color-green-four: #354f52
-  --color-green-five: #2f3e46
+  --color-one: #cad2c5;
+  --color-two: #84a98c;
+  --color-three: #52796f;
+  --color-four: #354f52;
+  --color-five: #2f3e46;
 
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
   'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -23,7 +23,7 @@ body {
 }
 
 body {
-  background: #84a98c;
+  background: var(--color-two);
 }
 
 a {
