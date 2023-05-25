@@ -4,15 +4,21 @@
   flex-direction: row;
   justify-content: space-between;
 
-  margin: 0 auto;
+  margin: 0;
   padding: 20px 20%;
-  background: var(--color-one);
+  background-color: rgba(var(--color-one), 0.3);
 
   font-size: large;
   font-family: var(--font-mono);
 }
 
-.linkTextIcon {
+.navOption {
   display: flex;
   align-self: center;
+  font-weight: 600;
+  height: 100%;
+}
+
+.navOption:hover {
+ color: rgba(var(--color-four), 0.8);
 }
