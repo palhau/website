@@ -1,8 +1,15 @@
-.main {
+.container {
   display: flex;
-  margin: 50px auto;
-  align-items: center;
+  min-height: 100vh;
   flex-direction: column;
   font-family: var(--font-mono);
-  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+  margin: 50px auto;
+}
+
+.footer {
+  margin-top: auto;
 }

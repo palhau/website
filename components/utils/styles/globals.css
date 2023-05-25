@@ -1,13 +1,13 @@
 :root {
-  --color-one: #cad2c5;
-  --color-two: #84a98c;
-  --color-three: #52796f;
-  --color-four: #354f52;
-  --color-five: #2f3e46;
+  --color-one: 202, 210, 197;
+  --color-two: 132, 169, 140;
+  --color-three: 82, 121, 111;
+  --color-four: 53, 79, 82;
+  --color-five: 47, 62, 70;
 
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-  'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
 
 * {
@@ -18,12 +18,13 @@
 
 html,
 body {
+  height: 100%;
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 body {
-  background: var(--color-two);
+  background: rgba(var(--color-two), 0.9);
 }
 
 a {
