@@ -24,7 +24,8 @@ body {
 }
 
 body {
-  background: rgba(var(--color-two), 0.9);
+  /* background: rgba(var(--color-two), 0.9); */
+  background-image: linear-gradient(to bottom right, rgba(var(--color-one)), rgba(var(--color-three)));
 }
 
 a {

@@ -26,7 +26,7 @@ export const Header = () => {
         className={styles.navOption}
       >
         <AiFillFire style={{ marginRight: '8px' }} />
-        Alan Palhau
+        Palhau Dev
       </Link>
       <Link
         style={isPathMatch.projects ? { color: 'rgba(var(--color-four))' } : {}}

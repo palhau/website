@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './styles.module.css';
-import Header from '../header';
 import Head from 'next/head';
-import Footer from '../footer';
+import Header from '../Header';
+import Footer from '../Footer';
+import styles from './styles.module.css';
 
 export const BaseLayout = ({ children }: any) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Alan Palhau</title>
+        <title>Palhau Dev</title>
       </Head>
       <Header />
       <main className={styles.main}>{children}</main>
