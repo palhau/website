@@ -1,6 +1,12 @@
-import { Headline, ProfessionalResume, Bio, Hobbies } from '@components/Home';
-import { BaseLayout } from '@components/Layouts/BaseLayout';
 import React from 'react';
+import {
+  Headline,
+  ProfessionalResume,
+  Bio,
+  Hobbies,
+  SocialMediaLinks,
+} from '@components/Home';
+import { BaseLayout } from '@components/Layouts/BaseLayout';
 
 export const WelcomePage = () => {
   return (
@@ -9,6 +15,7 @@ export const WelcomePage = () => {
       <ProfessionalResume />
       <Bio />
       <Hobbies />
+      <SocialMediaLinks />
     </BaseLayout>
   );
 };
