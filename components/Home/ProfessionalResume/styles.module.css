@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 80px auto 30px auto;
+}
+
+.container h3 {
+  width: fit-content;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(var(--color-three));
+  margin: 0 auto 10px 0;
+}
+
+.container p {
+  text-align: justify;
+  text-justify: inter-word;
+  max-width: 700px;
+  font-weight: 400;
+}
+
+.projectsBtn {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgba(var(--color-three), 0.7);
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.projectsBtn:hover {
+  cursor: pointer;
+  background-color: rgba(var(--color-two), 0.7);
+}

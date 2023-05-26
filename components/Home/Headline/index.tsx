@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './styles.module.css';
-import ProfilePic from '../../public/images/profile_img.jpg';
+import ProfilePic from '@public/images/profile_img.jpg';
 
 export const Headline = () => {
   return (
@@ -20,5 +20,3 @@ export const Headline = () => {
     </div>
   );
 };
-
-export default Headline;
