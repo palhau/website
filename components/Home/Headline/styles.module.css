@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.nameInfo {
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.profilePic {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    max-width: 400px;
+  }
+  .nameInfo{
+    margin-right: 0;
+  }
+  .nameInfo h1{
+    font-size: larger;
+  }
+  .nameInfo p{
+    font-size: small;
+  }
+  .profilePic {
+    width: 70px;
+    height: 70px;
+  }
+}
