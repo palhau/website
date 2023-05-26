@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 700px;
-  margin: 80px auto;
+  margin: 80px auto 30px auto;
 }
 
 .container h3 {
@@ -18,4 +18,21 @@
   text-justify: inter-word;
   max-width: 700px;
   font-weight: 400;
+}
+
+.projectsBtn {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-weight: 700;
+  background-color: rgba(var(--color-three), 0.7);
+  box-sizing: border-box;
+  border-radius: 5%;
+}
+
+.projectsBtn:hover {
+  cursor: pointer;
+  background-color: rgba(var(--color-two), 0.7);
 }
