@@ -3,13 +3,34 @@
   min-height: 100vh;
   flex-direction: column;
   font-family: var(--font-mono);
+  animation: 3s ease-out 0s 1 opacityZeroToOne;
 }
 
 .main {
   flex: 1;
   padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .footer {
   margin-top: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    flex: 1;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@keyframes opacityZeroToOne {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

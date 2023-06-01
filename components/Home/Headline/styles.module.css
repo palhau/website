@@ -2,20 +2,23 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  max-width: 700px;
-  margin: 50px auto;
+  justify-content: space-between;
+  margin: 50px auto 60px auto;
 }
 
 .nameInfo {
   flex-direction: column;
-  margin-right: 50px;
+}
+
+.nameInfo h1{
+  color: rgba(var(--color-one));
 }
 
 .profilePic {
   overflow: hidden;
   box-sizing: border-box;
   border-radius: 50%;
+  box-shadow: 0px 0px 10px white;
 }
 
 @media only screen and (max-width: 700px) {
@@ -28,11 +31,11 @@
   .nameInfo h1{
     font-size: larger;
   }
-  .nameInfo p{
-    font-size: small;
+  .nameInfo span{
+    font-size: smaller;
   }
   .profilePic {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
 }

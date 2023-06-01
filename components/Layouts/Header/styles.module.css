@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   margin: 0;
   padding: 20px 20%;
-  background-color: rgba(var(--color-one), 0.3);
+  background-color: rgba(var(--bg-zero), 0.2);
 
   font-size: large;
   font-family: var(--font-mono);
@@ -17,8 +17,9 @@
   align-self: center;
   font-weight: 600;
   height: 100%;
+  color: rgba(var(--color-one));
 }
 
 .navOption:hover {
- color: rgba(var(--color-four), 0.8);
+ color: rgba(var(--color-two), 1);
 }
