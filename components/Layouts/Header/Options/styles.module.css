@@ -1,0 +1,11 @@
+.navOption {
+  display: flex;
+  align-self: center;
+  font-weight: 600;
+  height: 100%;
+  color: rgba(var(--color-one));
+}
+
+.navOption:hover {
+ color: rgba(var(--color-two), 1);
+}
