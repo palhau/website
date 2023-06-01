@@ -20,7 +20,7 @@ export const Header = () => {
         href={'/'}
         style={
           isPathMatch.home
-            ? { fontWeight: 'bold', color: 'rgba(var(--color-four))' }
+            ? { fontWeight: 'bold', color: 'rgba(var(--color-two))' }
             : { fontWeight: 'bold' }
         }
         className={styles.navOption}
@@ -28,15 +28,15 @@ export const Header = () => {
         <AiFillFire style={{ marginRight: '8px' }} />
         Palhau Dev
       </Link>
-      <Link
-        style={isPathMatch.projects ? { color: 'rgba(var(--color-four))' } : {}}
+      {/* <Link
+        style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
         className={styles.navOption}
         href={'/projects'}
       >
         Projects
-      </Link>
+      </Link> */}
       <Link
-        style={isPathMatch.projects ? { color: 'rgba(var(--color-four))' } : {}}
+        style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
         className={styles.navOption}
         href={'/work'}
       >

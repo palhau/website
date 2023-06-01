@@ -13,9 +13,9 @@ export const ProfessionalResume = () => {
         to as real-life problems converted to code that programmers and machines
         understand.
       </p>
-      <div id="Button" className={styles.projectsBtn}>
-        <Link href="/projects">My Projects</Link>
-      </div>
+      {/* <div id="Button" className={styles.projectsBtn}>
+        <Link href="/projects">Projects &gt;</Link>
+      </div> */}
     </div>
   );
 };

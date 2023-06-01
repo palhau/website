@@ -5,6 +5,9 @@
   --color-four: 53, 79, 82;
   --color-five: 47, 62, 70;
 
+  --bg-zero: 0, 0, 0;
+  --bg-one: 85, 91, 86;
+
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -24,8 +27,13 @@ body {
 }
 
 body {
-  /* background: rgba(var(--color-two), 0.9); */
-  background-image: linear-gradient(to bottom right, rgba(var(--color-one)), rgba(var(--color-three)));
+  background: rgba(var(--bg-zero), 0.9);
+  /* background-image: linear-gradient(
+    to bottom right,
+    rgba(var(--bg-one)),
+    rgba(var(--bg-zero, 0.7))
+  ); */
+  color: rgba(var(--color-one), 0.7);
 }
 
 a {

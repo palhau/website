@@ -8,7 +8,7 @@ export const Headline = () => {
     <div className={styles.container}>
       <div className={styles.nameInfo}>
         <h1>Alan Vieira Palhau</h1>
-        <p>Software Developer (Frontend / Fullstack)</p>
+        <span>Software Developer (Frontend / Fullstack)</span>
       </div>
       <Image
         src={ProfilePic}
