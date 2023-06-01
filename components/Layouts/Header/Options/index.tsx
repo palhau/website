@@ -42,7 +42,7 @@ export const HeaderOptions = ({ isPathMatch }: HeaderOptionsProps) => {
       </Link>
       <Link
         target="_blank"
-        href={'https://github.com/palhau'}
+        href={'https://github.com/palhau/website'}
         className={styles.navOption}
       >
         <IoLogoGithub style={{ marginRight: '8px' }} />
