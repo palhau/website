@@ -13,3 +13,6 @@ export * from './Hobbies'
 
 // Social Media Links
 export * from './SocialMediaLinks'
+
+// Skills
+export * from './Skills'

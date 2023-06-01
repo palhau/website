@@ -1,0 +1,32 @@
+.title {
+  width: fit-content;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgba(var(--color-three));
+  margin: 50px auto 20px 0;
+  color: rgba(var(--color-one));
+}
+
+.itemsDetails span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: rgba(var(--color-one));
+}
+
+.itemsDetails b {
+  color: rgba(var(--color-one));
+}
+
+.itemsDetails p {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.itemsDetails {
+  margin-top: 30px;
+}
+
+.itemsDetails h3{
+  width: fit-content;
+  margin: 0 auto 20px 0;
+  color: rgba(var(--color-one));
+}

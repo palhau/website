@@ -30,7 +30,11 @@ export const HeaderOptions = ({ isPathMatch }: HeaderOptionsProps) => {
         Projects
       </Link> */}
       <Link
-        style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
+        style={
+          isPathMatch.work
+            ? { fontWeight: 'bold', color: 'rgba(var(--color-two))' }
+            : { fontWeight: 'bold' }
+        }
         className={styles.navOption}
         href={'/work'}
       >

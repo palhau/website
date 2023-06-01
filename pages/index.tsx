@@ -5,6 +5,7 @@ import {
   Bio,
   Hobbies,
   SocialMediaLinks,
+  Skills,
 } from '@components/Home';
 import { BaseLayout } from '@components/Layouts/BaseLayout';
 
@@ -14,6 +15,7 @@ export const WelcomePage = () => {
       <Headline />
       <ProfessionalResume />
       <Bio />
+      <Skills />
       <Hobbies />
       <SocialMediaLinks />
     </BaseLayout>
