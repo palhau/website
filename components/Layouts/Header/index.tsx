@@ -1,12 +1,13 @@
-import React from 'react';
-import Link from 'next/link';
+import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import styles from './styles.module.css';
-import { AiFillFire } from 'react-icons/ai';
-import { IoLogoGithub } from 'react-icons/io5';
+import { HeaderOptions } from './Options';
+import { HaburguerMenu } from './HamburguerMenu';
 
 export const Header = () => {
   const router = useRouter();
+  const [innerWidth, setInnerWidth] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
   const currentPath = router.pathname;
   const isPathMatch = {
     home: currentPath === '/',
@@ -14,42 +15,37 @@ export const Header = () => {
     work: currentPath === '/work',
   };
 
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const ref = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    const checkIfClickedOutside = ({ target }: MouseEvent) => {
+      if (isOpen && ref.current && !ref.current.contains(target as Node)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', checkIfClickedOutside);
+    return () => {
+      document.removeEventListener('mousedown', checkIfClickedOutside);
+    };
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setInnerWidth(window.innerWidth);
+    }
+  }, []);
+
   return (
-    <div className={styles.wrapper}>
-      <Link
-        href={'/'}
-        style={
-          isPathMatch.home
-            ? { fontWeight: 'bold', color: 'rgba(var(--color-two))' }
-            : { fontWeight: 'bold' }
-        }
-        className={styles.navOption}
-      >
-        <AiFillFire style={{ marginRight: '8px' }} />
-        Palhau Dev
-      </Link>
-      {/* <Link
-        style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
-        className={styles.navOption}
-        href={'/projects'}
-      >
-        Projects
-      </Link> */}
-      <Link
-        style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
-        className={styles.navOption}
-        href={'/work'}
-      >
-        Work History
-      </Link>
-      <Link
-        target="_blank"
-        href={'https://github.com/palhau'}
-        className={styles.navOption}
-      >
-        <IoLogoGithub style={{ marginRight: '8px' }} />
-        Source
-      </Link>
+    <div ref={ref} className={styles.wrapper}>
+      {innerWidth > 700 ? (
+        <HeaderOptions isPathMatch={isPathMatch} />
+      ) : (
+        <HaburguerMenu
+          isOpen={isOpen}
+          toggleMenu={toggleMenu}
+          isPathMatch={isPathMatch}
+        />
+      )}
     </div>
   );
 };

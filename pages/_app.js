@@ -1,4 +1,4 @@
-import '@utils/styles/globals.css';
+import '@utils/theme/globals.css';
 
 function Website({ Component, pageProps }) {
   

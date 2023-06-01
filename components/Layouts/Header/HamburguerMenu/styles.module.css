@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(var(--bg-zero), 0.8);
+  padding: 20px;
+}
+
+.menuBtn{
+  cursor: pointer;
+}
+
+.closeBtn{
+  margin: 0 0 20px auto;
+  cursor: pointer;
+  padding: 0;
+}

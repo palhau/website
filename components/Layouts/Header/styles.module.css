@@ -12,14 +12,17 @@
   font-family: var(--font-mono);
 }
 
-.navOption {
-  display: flex;
-  align-self: center;
-  font-weight: 600;
-  height: 100%;
-  color: rgba(var(--color-one));
-}
 
-.navOption:hover {
- color: rgba(var(--color-two), 1);
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    justify-content: flex-end;
+    padding: 10px 10px;
+    margin: 0 0 20px auto;
+    background-color: rgba(var(--bg-zero), 0);
+
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+  }
 }
