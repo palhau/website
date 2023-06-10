@@ -9,7 +9,7 @@ export const BaseLayout = ({ children }: any) => {
     <div className={styles.container}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Palhau Dev</title>
+        <title>Alan Palhau</title>
       </Head>
       <Header />
       <main className={styles.main}>{children}</main>

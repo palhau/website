@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import styles from './styles.module.css';
-import { AiFillFire } from 'react-icons/ai';
 import { IoLogoGithub } from 'react-icons/io5';
 import { isPathMatchType } from '@/utils/types';
 
@@ -19,8 +18,7 @@ export const HeaderOptions = ({ isPathMatch }: HeaderOptionsProps) => {
         }
         className={styles.navOption}
       >
-        <AiFillFire style={{ marginRight: '8px' }} />
-        Palhau Dev
+        &lt; A V P / &gt;
       </Link>
       {/* <Link
         style={isPathMatch.projects ? { color: 'rgba(var(--color-two))' } : {}}
