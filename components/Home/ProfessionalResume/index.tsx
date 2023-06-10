@@ -7,7 +7,7 @@ export const ProfessionalResume = () => {
     <div className={styles.container}>
       <h3>About</h3>
       <p>
-        Alan Palhau is a freelance, frontend developer based in
+        Alan Palhau is a Freelance, FrontEnd and FullStack Developer based in
         Brazil, with a love in solve puzzles and building/creating apps and
         websites to help solve these &quot;issues&quot;, that could be referred
         to as real-life problems converted to code that programmers and machines can easily
