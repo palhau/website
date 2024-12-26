@@ -7,16 +7,17 @@ export const Skills = () => {
       <h3>Skills</h3>
       <div className={styles.timelineItems}>
         <p>
-          <span>3+ years -</span> React JS, Javascript, Typescript, NextJS, CSS
+          <span>5+ years -</span> React JS, Javascript, Typescript, NextJS, CSS
           (SASS, CSS Modules).
         </p>
         <p>
-          <span>2 years -</span>Cloud AWS, NodeJS, Python.
+          <span>3 years -</span>Cloud AWS, NodeJS, Python Postgres, Redux,
+          TailwindCSS.
         </p>
         <p>
-          <span>1 year -</span>Postgres, MongoDB, React Native, Node JS, Redux
-          Saga, NestJS, GraphQL, Python, Flask, Java, SpringBoot, Express.js,
-          GCP, Retool (Low Code).
+          <span>1+ year -</span>MongoDB, React Native, Node JS, Zustand, NestJS,
+          GraphQL, Python, Flask, Java, SpringBoot, Express.js, GCP, Retool (Low
+          Code), Webflow (Low Code), Bubble (Low Code), shadcn/ui, MUI Material.
         </p>
       </div>
     </div>

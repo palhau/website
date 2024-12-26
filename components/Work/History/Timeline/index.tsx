@@ -7,6 +7,9 @@ export const HistoryTimeLine = () => {
       <h2 className={styles.title}>Work History</h2>
       <div className={styles.timelineItems}>
         <p>
+          <span>2023 - 2024</span>Frontend Developer at <b>Finnet</b>.
+        </p>
+        <p>
           <span>2022 - 2023</span>Frontend Developer at <b>Trace Finance</b>.
         </p>
         <p>
@@ -15,7 +18,7 @@ export const HistoryTimeLine = () => {
         <p>
           <span>2020 - 2021</span> Software Engineer at <b>Veksti (Virtumed)</b>
           .
-        </p>   
+        </p>
         <p>
           <span>2020 - 2020</span> Fullstack Developer at <b>Truckpad</b>.
         </p>
@@ -23,3 +26,4 @@ export const HistoryTimeLine = () => {
     </>
   );
 };
+
