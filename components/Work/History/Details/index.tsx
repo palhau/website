@@ -6,6 +6,14 @@ export const HistoryDetails = () => {
     <>
       <h2 className={styles.title}>More Details</h2>
       <div className={styles.itemsDetails}>
+        <h3>Collinson</h3>
+        <p>
+          - Leding all frontend‑related decisions and established code quality standards,
+          including patterns, conventions, and best practices, currently working with: React,
+          TypeScript, Tailwind CSS, Zustand, React Query, PNPM monorepos, micro‑frontends,
+          Module Federation, and AWS (Amplify, Route 53, S3 buckets, CloudFront, CloudFormation).        </p>
+      </div>
+      <div className={styles.itemsDetails}>
         <h3>Finnet</h3>
         <p>
           - Creating features, pages and maintain the gateway of payments system

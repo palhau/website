@@ -11,7 +11,7 @@ export const Skills = () => {
           (SASS, CSS Modules).
         </p>
         <p>
-          <span>3 years -</span>Cloud AWS, NodeJS, Python Postgres, Redux,
+          <span>3 years -</span>AWS, NodeJS, Python Postgres, Redux,
           TailwindCSS.
         </p>
         <p>

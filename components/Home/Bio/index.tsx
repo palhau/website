@@ -13,7 +13,7 @@ export const Bio = () => {
           <span>2013</span>Completed a Technical Course on Programming.
         </p>
         <p>
-          <span>2021 to present</span>BS in Computer Science at UAM.
+          <span>2026</span>Completed BS in Computer Science at UAM.
         </p>
       </div>
     </div>

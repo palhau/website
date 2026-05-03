@@ -7,6 +7,9 @@ export const HistoryTimeLine = () => {
       <h2 className={styles.title}>Work History</h2>
       <div className={styles.timelineItems}>
         <p>
+          <span>2025 - Present</span>Frontend Developer at <b>Collinson</b>.
+        </p>
+        <p>
           <span>2023 - 2024</span>Frontend Developer at <b>Finnet</b>.
         </p>
         <p>

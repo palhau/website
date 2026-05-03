@@ -9,6 +9,9 @@ export const Hobbies = () => {
         Beach Volley, Cybersecurity Studies, New Stack Project ♥, Music, Art and
         some good challenges.
       </p>
+      <p className={styles.christ}>
+        Christ is King &#10013;
+      </p>
     </div>
   );
 };

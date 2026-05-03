@@ -3,13 +3,13 @@
   min-height: 100vh;
   flex-direction: column;
   font-family: var(--font-mono);
-  animation: 2s ease-out 0s 1 opacityZeroToOne;
+  /* animation: 2s ease-out 0s 1 opacityZeroToOne; */
 }
 
 .main {
   flex: 1;
   padding: 20px;
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
